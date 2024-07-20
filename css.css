@@ -1,6 +1,7 @@
 body {
         background-image: url("c:\Users\Julieta Di Urso\Downloads\FONDO.png");
         background-repeat: no-repeat;
+        background-position: center;
         background-attachment: fixed;
     
 
@@ -18,5 +19,3 @@ div{
     color: orange;
     text-align: center;
 }
-<div{ id="contacto" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" style="">
-    <div class="card-body">}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refugio de pelos</title>
-    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
@@ -25,24 +25,29 @@
 <div>¿Que necesito para adoptar un refugiado?</div>
 <h4>Ser un adulto +21   |    Residir en C.A.B.A.   |   Tener un enorme corazón</h4>
 <div>Completa el formulario para adoptar</div>
-<label for="fname">Nombre completo:</label><br>
-  <input type="text" id="fname" name="fname" value="Escribe tu nombre"><br>
-  <label for="lname">Apellido:</label><br>
-  <input type="text" id="lname" name="lname" value="Escribe tu apellido"><br>
-  <p>¿Te identificas como?:</p>
-  <form action="/action_page.php">
-  <input type="radio" id="Hombre" name="sexo" value="Hombre">
-  <label for="Hombre">Hombre</label><br>
-  <input type="radio" id="Mujer" name="sexo" value="Mujer">
-  <label for="Mujer">Mujer</label><br>
-  <input type="radio" id="No binario" name="sexo" value="No binario">
-  <label for="No binario">No binario</label><br>
-  <input type="checkbox"> ¿Qué personalidad va mejor con vos? ej: Quiero un gato tranquilo/activo <br>
-    <input type="submit" value="Enviar">
+  <section class="form-register">
+  <h3>Formulario de Adopción</h3>
+  <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+  <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+  <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+  <h4>¿Te identificas como?</h4>
+  <input type="checkbox" id="cbox1" value="primer-box" /> Hombre </label ><br />
+  <input type="checkbox" id="cbox2" value="segundo-box"/> <label for="cbox2">Mujer</label><br />
+  <input type="checkbox" id="cbox3" value="tercer-box"/> <label for="cbox3" >No binario</label
+  ><br />
+  <h4>¿Qué edad tienes?(Recuerda que debes ser mayor de 21 años)</h4>
+  <input class="controls" type="text" name="edad" id=edad placeholder="Ingrese su edad">
+  <h4>Ahora piensa.. ¿Cuál es tu peludito favorito? </h4>
+  <input type="checkbox" id="cbox1" value="primer-box" /> Perritos</label ><br />
+  <input type="checkbox" id="cbox2" value="segundo-box"/> <label for="cbox2">Gatitos</label><br />
+  <p> En el Centro tenemos peluditos de todo tipo juguetones, tranquilos, cariñosos y curiosos. Descríbenos
+    como te gustaría que sea tu nueva mascota ideal.. <br />
+    <input class="controls" type="text" name="personalidad" placeholder="Mi peludito ideal sería..">
+  </p>
+  <br /> <br /> <br /> <br />
   
-  
-</form> 
-    
+  <p> Es obligatorio que estés de acuerdo con los <a href="#">Terminos y Condiciones</a> del Refugio en donde te comprometes a cuidar y proteger a tu nuevo amigo</p><br />
+  <input class="botons" type="submit" value="Enviar"> 
 
 <h2>Nuestra meta</h2>
 <h6>Las cifras del 2023 son mayores a las registradas en 2022, cuando hubo 2.139 denuncias por casos de maltrato animal; 716 por omisión de cuidado responsable; 76 abandonos; 599 llamados por animales en espacios inadecuados y 748 violaciones a la Ley Nacional de Protección al Animal. Dada esta problemática, nosotras decidimos formar parte de la solución para que este 2024 esas cifras bajen de una vez por todas. </h6>
@@ -51,7 +56,7 @@ src="https://youtu.be/AZS5cgybKcI?si=vmowWlHtFhNdoClg">
 <section> aca hay una seccion </section>
 </iframe>
 
-<div id="contacto" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion" style="">
+<div id="contacto" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion"style="">
     <div class="card-body">
     <ul>
           <li class="subtitle_footer">

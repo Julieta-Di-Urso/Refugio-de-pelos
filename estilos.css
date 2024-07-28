@@ -77,3 +77,68 @@ div{
     margin: 16px 0;
     font-size: 16px;
   }
+
+  header {
+    top: 0;
+    height: 70px;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1;
+    display: flex;
+    position: fixed;
+    background-image: linear-gradient(rgb(253, 149, 117), rgb(235, 145, 42));
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    margin-right: 5px;
+    height: 70px;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .nav-bar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: medium;
+    visibility: visible;
+  }
+  
+  .nav-bar li {
+    margin-right: 20px;
+  }
+  
+  .nav-bar li a {
+    text-decoration: none;
+    color: rgb(4, 7, 4);
+    text-shadow: 0 0 1em rgb(245, 248, 246);
+  }
+
+  .footer-img {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    justify-content: space-around;
+  
+  }
+
+  main {
+    background-size: cover;
+    background-color: rgb(247, 247, 247);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  section {
+    margin: 30px 5%;
+    font-size: small;
+  }

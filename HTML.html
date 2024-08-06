@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <h2> <img src="./REFUGIO DE PELOS.png" alt="LOGO" style="width:250px;height: 250px;">
+ 
   </h2>
   <!--HEADER (ENCABEZADO)-->
   <div class="container-grid">
@@ -25,12 +25,22 @@
         </div>
       </header>
 
-<div class="contenido-inicio">
-  <img src="./Cachorro.png" alt="Cachorro"> 
-  <section>
-  <h3><strong>¿Queres formar parte?</strong></h3><input type="button" value="¡Sí, quiero!">
+
+
+<!--CONTENEDOR CON EL PERRITO Y EL BOTON DE QUERES SER PARTE -->
+<section class="container">
+    <img src="img/Cachorro.png" alt="cachorro">
+    <div class="text">
+        <h3><strong>¿Queres formar parte?</strong></h3>
+        <button id="yesButton">Sí quiero</button>
+        <script>
+        document.getElementById("yesButton").addEventListener("click", function() {
+        alert("¡Has confirmado tu inscripcion!");
+        });
+        </script>
+    </div>
 </section>
-</div>
+
  <!-- FORMULARIO -->
   <br>
   <br>
@@ -68,6 +78,7 @@
   
   <p> Es obligatorio que estés de acuerdo con los <a href="#">Terminos y Condiciones</a> del Refugio en donde te comprometes a cuidar y proteger a tu nuevo amigo</p><br />
   <input class="botons" type="submit" value="Enviar"> 
+</div>
 
 <!-- ACORDION 1 -->
 
@@ -146,7 +157,6 @@
       </div>
     </div>
   </div>
-</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 <br>

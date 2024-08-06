@@ -142,7 +142,51 @@ div{
     flex-direction: column;
     margin-top: 40px;
   }
-  section {
+  /*section {
     margin: 30px 5%;
     font-size: small;
   }
+
+
+  .Cachorro{
+    margin-right: 200px;
+    height: 400px;
+    float: left;
+    
+  }
+
+  .cuadrado1{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 150x 150 50px;
+      margin-top: 80px;
+      background-color: #f3ddc4;
+  }
+
+  .formarparte{
+    font-size: 30px;
+    text-align: 
+}
+
+h3:hover{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+}
+
+*/
+
+.container {
+  display: flex; 
+  align-items: center; /
+}
+
+.container img {
+ max-width: 100%; 
+height: auto; 
+margin-right: 20px; 
+}
+
+.text {
+  max-width: 600px; 
+}

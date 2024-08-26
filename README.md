@@ -1,7 +1,7 @@
 # Adopcion
 Grupo :  Julieta Di Urso y Agustina Juarez.
 
-¡Hola! somos "...." y buscamos darles un hogar a estos leales amigos.
+¡Hola! somos "Refugio de pelos" y buscamos darles un hogar a estos leales amigos.
 Las cifras del 2023 son mayores a las registradas en 2022, cuando hubo 2.139 denuncias por casos de maltrato animal; 716 por omisión de cuidado responsable; 76 abandonos; 599 llamados por animales en espacios inadecuados y 748 violaciones a la Ley Nacional de Protección al Animal. Dada esta problemática, nosotras decidimos formar parte de la solución para que este 2024 esas cifras bajen de una vez por todas.
 
 ¿Te interesa saber de que se trata? ¡Vamos! 

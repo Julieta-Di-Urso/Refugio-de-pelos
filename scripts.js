@@ -1,4 +1,6 @@
-document.getElementById("enviar").addEventListener("click", function() {
+let botonEnviar = document.getElementById("enviar");
+
+botonEnviar.addEventListener("click", function() {
     document.getElementById("mensaje").innerText = "¡Gracias POR SER PARTE!";
 });
 

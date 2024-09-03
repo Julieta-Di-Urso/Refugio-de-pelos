@@ -1,5 +1,5 @@
 body {
-  background-image: url(./FONDO\ HD.png);
+  background-image: url(img/FONDO\ HD.png);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -10,17 +10,22 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+
 div h2{ text-align: right;
  }
+
+
 h3{
     color: orange;
-text-align:center;
+    text-align:center;
  }
 
 h4{
     color: rgb(12, 12, 12);
     text-align: center;
 }
+
 label{ 
   color: black;
 }
@@ -28,10 +33,10 @@ div{
     color: rgb(12, 12, 12);
     text-align: center;
 }
-div#{
+div{
   color: #032244;
 }
-div{
+.div{
   color: #27231f;}
 
 .form-register {
@@ -168,4 +173,7 @@ margin-right: 20px;
 
 .enviar {
   color:orange
+}
+.accordion-body {
+background-color: white;
 }
